@@ -51,6 +51,7 @@ run:
       user: 185
       cmd:
           - "/bin/launch_java.sh"
+          - "-jar"
           - "/topic-forwarder.jar"
 
 osbs:
